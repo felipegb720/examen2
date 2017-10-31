@@ -1,6 +1,6 @@
-package gt.url.edu.demoestructuras.ds;
+package gt.edu.url.examen2.problema2;
 
-public interface List<E> extends Iterable<E>{
+public interface List<E> {
 
 	/**
 	 * Returns list elements count
@@ -38,6 +38,6 @@ public interface List<E> extends Iterable<E>{
 	 * Removes/returns the element at index i, shifting subsequent elements earlier
 	 * @return Deleted element at index i
 	 */
-	 E remove(int i) throws IndexOutOfBoundsException;
+	 E remove(int i, E e) throws IndexOutOfBoundsException;
 
 }
